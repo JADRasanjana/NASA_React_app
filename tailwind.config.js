@@ -1,0 +1,15 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      // backgroundImage: {
+      //   "hero-bg": "url('./assets/hero-image.png')",
+      // },
+      dropShadow : {
+        'navbar' : "10px 20px 30px rgba(149, 128, 253,0.5)"
+      }
+    },
+  },
+  plugins: [],
+};
